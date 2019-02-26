@@ -83,7 +83,6 @@ class App extends Component {
         <input type="text" value={this.state.inputText} onChange={e => this.handleChange(e.target.value)} />
         <br />
         {this.state.inputText}
-
         <Search/>
       </div>
     );
