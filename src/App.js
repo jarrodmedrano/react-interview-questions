@@ -78,8 +78,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/*Create an input box that sets the text of another element*/}
-        <h1>Simple One Way Binding</h1>
+        <h1>Simple Two Way Binding</h1>
         <p>Render the text of the input underneath it</p>
         <input type="text" value={this.state.inputText} onChange={e => this.handleChange(e.target.value)} />
         <br />
